@@ -1,0 +1,9 @@
+pydantic
+pydantic-settings
+langchain
+langchain-core
+langchain-openai
+langgraph
+faiss-cpu
+openai
+pandas
