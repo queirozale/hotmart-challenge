@@ -1,6 +1,6 @@
 # 🧠 Hotmart Challenge – Multi-Agent Customer Support System
 
-A multi-agent system designed to enhance and automate customer support interactions using LLMs and LangGraph.
+A multi-agent system designed to automate Hotmart customer support.
 
 ---
 
@@ -8,16 +8,15 @@ A multi-agent system designed to enhance and automate customer support interacti
 
 ### ✅ Requirements
 
-- Python 3.10+
+- Python 3.11+
 - OpenAI API Key
 
 ### 🔐 Setup
 
 1. Create a `.env` file inside the `conf/` directory:
-
-   ```bash
-   touch conf/.env
-   ```
+```bash
+touch conf/.env
+```
 
 2. Add your OpenAI API key to it:
 ```
@@ -30,4 +29,4 @@ make build
 ```
 
 ### 📄 Documentation
-For a detailed explanation of the architecture, agents, and decision logic, refer to the solution.pdf file included in the repository.
+For a detailed explanation of the solution, check solution.pdf
