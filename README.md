@@ -1,4 +1,4 @@
-# 🧠 Hotmart Challenge – Multi-Agent Customer Support System
+# Hotmart Challenge – Multi-Agent Customer Support System
 
 A multi-agent system designed to automate Hotmart customer support.
 
