@@ -1,5 +1,4 @@
 from typing import Any, Tuple, Type
-import json
 from pydantic import Field, SecretStr
 from pydantic_settings import (
     BaseSettings,
@@ -10,10 +9,10 @@ from pydantic_settings import (
 
 
 class BaseAppSettings(BaseSettings):
-    env: SecretStr = Field(
+    open_api_key: SecretStr = Field(
         default=SecretStr(""),
-        description="Secret value for the environment type.",
-        alias="ENV_TYP",
+        description="OpenAI API key.",
+        alias="OPENAI_API_KEY",
     )
 
     model_config = SettingsConfigDict(

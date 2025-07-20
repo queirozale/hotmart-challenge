@@ -21,6 +21,7 @@ RUN uv pip install ./dist/*.whl
 WORKDIR /app
 RUN rm -rf /build
 COPY ./conf/ ./conf/
+COPY ./data/ ./data/
 COPY start.sh .
 
 RUN chmod +x start.sh
